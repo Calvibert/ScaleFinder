@@ -9,21 +9,21 @@
     <body>
         <div class="bg-yellow-600 hover:bg-yellow-700 text-white">
             <a id="language" class="text-md text-left px-2 py-2">Français</a>
-            <h1 class="text-8xl md:text-6xl font-bold text-center font-bold py-6 px-4">Find Scales for your Chords</h1>
+            <h1 class="text-9xl font-bold text-center font-bold py-6 px-4">Find Scales for your Chords</h1>
         </div>
 
         <div class="max-wd-xl bg-yellow-400">
             <div id="input-container" class="py-6 text-center flex-row input-container">
-                <input class="input" placeholder="ex: C"/>
+                <input class="w-8/12 text-3xl input" placeholder="ex: C"/>
             </div>
             <div class="text-center py-6">
-                <button id="clear" class="px-4 py-3 bg-red-300 hover:bg-red-400 rounded shadow-md animate-bounce outline-none">Clear</button>
-                <button id="submit" class="px-4 py-3 bg-green-300 hover:bg-green-400 rounded shadow-md animate-bounce outline-none">Find Scales</button>
+                <button id="clear" class="text-4xl px-4 py-3 bg-red-300 hover:bg-red-400 rounded shadow-md animate-bounce outline-none">Clear</button>
+                <button id="submit" class="text-4xl px-4 py-3 bg-green-300 hover:bg-green-400 rounded shadow-md animate-bounce outline-none">Find Scales</button>
             </div>
         </div>
 
         <div class="bg-green-200 max-w-l">
-            <div class="max-w-4xl py-10 mx-auto" id="result">
+            <div class="max-w-6xl py-10 mx-auto" id="result">
             </div>
         </div>
 
@@ -34,7 +34,7 @@
         <script>
             $(document).on('change', '.input', function() {
                 if ($(this).val() != '') {
-                    $(".input-container").append('<input class="input"/>');
+                    $(".input-container").append('<input class="w-8/12 text-3xl input"/>');
                 }
             });
             $(document).on('keydown', '.input', function(e) {

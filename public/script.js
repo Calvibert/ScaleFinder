@@ -103,7 +103,7 @@ function findMatches(numbersArr, tonesArr) {
 
 function format(matches) {
   var output =
-    '<table class="table table-fixed border-green-700 justify-center"><tr><th>Mode</th><th>Notes</th></tr>';
+    '<table class="text-3xl table table-fixed border-green-700 justify-center"><tr><th>Mode</th><th>Notes</th></tr>';
 
   for (var i = 0; i < matches.length; ++i) {
     output += "<tr>";
@@ -132,7 +132,7 @@ function printScale(targets, scale, mode) {
       flavor = "m";
     }
     if (i == 6) {
-      flavor = "dim7";
+      flavor = "dim";
     }
     if (targets.includes(mode[i])) {
       output += "<b>" + scale[mode[i] - 1] + flavor + "</b> ";
