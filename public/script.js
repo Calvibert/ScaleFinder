@@ -103,7 +103,7 @@ function findMatches(numbersArr, tonesArr) {
 
 function format(matches) {
   var output =
-    '<table class="text-6xl table table-fixed border-green-700 justify-center"><tr><th>Mode</th><th>Notes</th></tr>';
+    '<table class="text-8xl table table-fixed border-green-700 justify-center"><tr><th>Mode</th><th>Notes</th></tr>';
 
   for (var i = 0; i < matches.length; ++i) {
     output += "<tr>";

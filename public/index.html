@@ -14,7 +14,7 @@
 
         <div class="max-wd-xl bg-yellow-400">
             <div id="input-container" class="py-6 text-center flex-row input-container">
-                <input class="w-8/12 text-3xl input" placeholder="ex: C"/>
+                <input class="w-8/12 text-8xl input" placeholder="ex: C"/>
             </div>
             <div class="text-center py-6">
                 <button id="clear" class="text-4xl px-4 py-3 bg-red-300 hover:bg-red-400 rounded shadow-md animate-bounce outline-none">Clear</button>
@@ -34,7 +34,7 @@
         <script>
             $(document).on('change', '.input', function() {
                 if ($(this).val() != '') {
-                    $(".input-container").append('<input class="w-8/12 text-3xl input"/>');
+                    $(".input-container").append('<input class="w-8/12 text-8xl input"/>');
                 }
             });
             $(document).on('keydown', '.input', function(e) {
