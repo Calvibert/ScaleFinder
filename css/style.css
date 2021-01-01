@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply transition transform scale-100 duration-500 ease-in-out border-gray-300 rounded-lg mx-2 my-2 py-2 text-lg text-center shadow-md focus:scale-125 appearance-none outline-none;
+  }
+}

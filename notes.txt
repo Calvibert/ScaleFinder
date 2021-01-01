@@ -1,0 +1,8 @@
+Finish traductions
+Permettre de choisir des gammes (majeur, etc.)
+Filtrer pour un type seulement, ex: Ionian
+
+Style:
+Table qui ressort plus
+
+Mobile friendly
