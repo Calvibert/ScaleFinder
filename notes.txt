@@ -4,5 +4,3 @@ Filtrer pour un type seulement, ex: Ionian
 
 Style:
 Table qui ressort plus
-
-Mobile friendly
